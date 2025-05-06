@@ -1,0 +1,32 @@
+.primary-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo svg {
+  width: 100px;
+}
+
+.primary-navigation ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  @media (width < 720px) {
+    flex-direction: column;
+  }
+}
+
+.primary-navigation a:not(.logo) {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.primary-navigation a.active {
+  color: dodgerblue;
+}

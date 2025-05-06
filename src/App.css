@@ -1,0 +1,65 @@
+.wrapper {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+
+img {
+  max-inline-size: 100%;
+  display: block;
+}
+
+.teal-bg {
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border: 10px solid rgb(0, 90, 90);
+}
+
+.teal-text {
+  color: teal;
+}
+
+h2 {
+  color: rgb(190, 90, 0);
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.76em;
+}
+
+.climber-bg {
+  background-image: url("./assets/simple-steps.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border: 10px solid rgb(0, 90, 90);
+  color: white;
+}
+
+section {
+  margin-block: 100px;
+}
+
+.two-column-layout {
+  display: grid;
+  gap: 60px;
+  margin-block-end: 60px;
+  
+  @media (width > 720px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.two-column-layout > * {
+  align-self: center;
+}
+
+li:not(.primary-navigation ul li) {
+  margin-block: 5px;
+}
+
+footer {
+  text-align: center;
+}
