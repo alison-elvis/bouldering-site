@@ -127,12 +127,4 @@ Após a conclusão, a página estará disponível no endereço definido no campo
 
 ---
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-Caso deseje explorar outras ideias para aprimorar o projeto, considere adicionar testes unitários com Jest ou integrar uma API para fornecer dados adicionais sobre bouldering. Você também pode expandir o conteúdo da página e criar uma área para a comunidade interagir e trocar dicas sobre o esporte.
-
-Espero que este README atenda às suas necessidades e inspire melhorias constantes no seu projeto!
+[bouldering](https://alison-elvis.github.io/bouldering-site)
