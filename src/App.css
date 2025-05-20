@@ -21,11 +21,11 @@ img {
 
 h2 {
   color: rgb(190, 90, 0);
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 1.76em;
+  font-size: 1.76rem;
 }
 
 .climber-bg {
@@ -39,13 +39,13 @@ h3 {
 }
 
 section {
-  margin-block: 100px;
+  margin-block: 70px;
 }
 
 .two-column-layout {
   display: grid;
-  gap: 60px;
-  margin-block-end: 60px;
+  gap: 70px;
+  margin-block-end: 70px;
   
   @media (width > 720px) {
     grid-template-columns: 1fr 1fr;
@@ -58,6 +58,10 @@ section {
 
 li:not(.primary-navigation ul li) {
   margin-block: 5px;
+}
+
+ul li:not(.primary-navigation ul li)::marker {
+  content: "👉";
 }
 
 footer {
