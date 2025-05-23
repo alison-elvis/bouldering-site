@@ -1,6 +1,7 @@
 .wrapper {
   max-inline-size: 1000px;
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 img {
@@ -11,7 +12,7 @@ img {
 .teal-bg {
   background-color: teal;
   color: white;
-  padding: 20px;
+  padding: 1rem;
   border: 10px solid rgb(0, 90, 90);
 }
 
@@ -21,11 +22,6 @@ img {
 
 h2 {
   color: rgb(190, 90, 0);
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 1.76rem;
 }
 
 .climber-bg {
@@ -33,7 +29,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px;
+  padding: 1rem;
   border: 10px solid rgb(0, 90, 90);
   color: white;
 }
